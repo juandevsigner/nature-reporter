@@ -1,9 +1,15 @@
-import { DailyNaturePage, HomePage, ReporterNaturePage } from "../pages";
+import {
+  DailyNaturePage,
+  HomePage,
+  ReporterNaturePage,
+  TermNaturePage,
+} from "../pages";
 
 interface IRouter {
   path: string;
   component: React.FC;
   title: string;
+  subMenu?: boolean;
 }
 
 export const ROUTER_SCHEMA: IRouter[] = [
@@ -21,5 +27,11 @@ export const ROUTER_SCHEMA: IRouter[] = [
     path: "/diarios-de-la-naturaleza",
     component: DailyNaturePage,
     title: "Diarios",
+  },
+  {
+    path: "/diarios-de-la-naturaleza/granjas",
+    component: TermNaturePage,
+    title: "Granjas",
+    subMenu: true,
   },
 ];

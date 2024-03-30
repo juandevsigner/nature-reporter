@@ -1,7 +1,16 @@
+import { useContext, useEffect } from "react";
+import { AppContext } from "src/context/app.context";
 import bgImage from "../../assets/reporteros.webp";
 import styles from "./home.module.scss";
 
 const HomePage = () => {
+  const { setOpenMenu } = useContext(AppContext);
+
+  useEffect(() => {
+    setOpenMenu(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
     <div className={styles["home-page"]}>
       <header>

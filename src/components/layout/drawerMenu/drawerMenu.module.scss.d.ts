@@ -4,5 +4,6 @@ declare const classNames: {
   readonly "drawer-menu__links": "drawer-menu__links";
   readonly "close-menu": "close-menu";
   readonly "open-menu": "open-menu";
+  readonly "sub-menu": "sub-menu";
 };
 export = classNames;

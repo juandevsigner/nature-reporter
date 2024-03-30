@@ -2,7 +2,7 @@ import { useContext, useMemo } from "react";
 import { ROUTER_SCHEMA } from "../../../router/router.schema";
 import { Link } from "react-router-dom";
 import { AppContext } from "src/context/app.context";
-import { CloseCircle } from "iconsax-react";
+import { ArrowRight2, CloseCircle } from "iconsax-react";
 import styles from "./drawerMenu.module.scss";
 
 export const DrawerMenu = () => {
@@ -21,9 +21,13 @@ export const DrawerMenu = () => {
         <CloseCircle color="white" />
       </button>
       <div className={styles["drawer-menu__links"]}>
-        {ROUTER_SCHEMA.map(({ path, title }) => (
-          <Link key={path} to={path}>
-            {title}
+        {ROUTER_SCHEMA.map(({ path, title, subMenu }) => (
+          <Link
+            className={subMenu ? styles["sub-menu"] : ""}
+            key={path}
+            to={path}
+          >
+            {subMenu && <ArrowRight2 size="17" color="#37d67a" />} {title}
           </Link>
         ))}
       </div>
