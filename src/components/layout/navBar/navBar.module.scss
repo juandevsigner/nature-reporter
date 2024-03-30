@@ -1,0 +1,26 @@
+@import "../../../stylesheets/variables.scss";
+
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  background-color: $primary-color;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 30px 20px;
+  transition: background-color ease-in-out 0.3s;
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &--heading {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+  }
+}
+.bg-transparent {
+  background-color: transparent;
+}

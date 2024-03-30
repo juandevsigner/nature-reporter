@@ -1,0 +1,52 @@
+@import "../../../stylesheets/variables.scss";
+
+.drawer-menu {
+  background-color: $secondary-color;
+  position: absolute;
+  width: 30%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: left ease-in-out 0.3s;
+  z-index: 99;
+
+  &__close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+
+    > a {
+      color: white;
+      font-size: 60px;
+      font-weight: 300;
+      text-transform: uppercase;
+      transition: all ease-in-out 0.3s;
+      text-align: left;
+      opacity: 0.5;
+      &:hover {
+        transform: scale(1.01);
+        font-weight: 400;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.close-menu {
+  left: -100%;
+}
+.open-menu {
+  left: 0%;
+}
