@@ -1,0 +1,36 @@
+@import "../../stylesheets/variables.scss";
+
+.term-nature {
+  display: flex;
+  flex-direction: column;
+
+  > header {
+    background-color: $secondary-color;
+    padding: 65px 20px 10px 20px;
+    text-align: center;
+    color: white;
+    > h1 {
+      font-size: 30px;
+    }
+  }
+  > main {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+    > div {
+      > img {
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: all ease-in-out 0.3s;
+        &:hover {
+          transform: scale(1.01);
+        }
+      }
+    }
+  }
+}

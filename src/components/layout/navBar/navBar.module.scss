@@ -10,6 +10,7 @@
   justify-content: space-between;
   padding: 30px 20px;
   transition: background-color ease-in-out 0.3s;
+  z-index: 7;
   &__container {
     display: flex;
     align-items: center;

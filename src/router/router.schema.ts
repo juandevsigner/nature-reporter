@@ -1,6 +1,7 @@
 import {
   DailyNaturePage,
   HomePage,
+  MomDrawPage,
   ReporterNaturePage,
   TermNaturePage,
 } from "../pages";
@@ -31,7 +32,12 @@ export const ROUTER_SCHEMA: IRouter[] = [
   {
     path: "/diarios-de-la-naturaleza/granjas",
     component: TermNaturePage,
-    title: "Granjas",
+    title: "Animales de la Granja",
     subMenu: true,
+  },
+  {
+    path: "/mama-ilustra",
+    component: MomDrawPage,
+    title: "Mamá Ilustra",
   },
 ];

@@ -41,9 +41,9 @@ export const Footer = () => {
           <p>
             <CallCalling size="17" color="#FFf" variant="Bold" /> +57 3115800420
           </p>
-          <a href="https://www.facebook.com/aprendelibrelatam">
+          <a href="https://www.facebook.com/CharlotteMasonColombia">
             <Facebook variant="Bold" size="17" color="#ffffff" />{" "}
-            /aprendelibrelatam
+            /CharlotteMasonColombia
           </a>
         </div>
       </div>

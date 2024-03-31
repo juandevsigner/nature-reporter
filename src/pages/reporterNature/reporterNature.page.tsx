@@ -1,7 +1,7 @@
 import { useContext, useEffect } from "react";
 import ReactPlayer from "react-player";
 import { AppContext } from "src/context/app.context";
-import { DAILY_NATURE } from "src/schemas/dailyNature.schema";
+import { NATURE_REPORTERS } from "src/schemas/natureReporters.schema";
 import styles from "./reporterNature.module.scss";
 
 const ReporterNaturePage = () => {
@@ -13,15 +13,10 @@ const ReporterNaturePage = () => {
   }, []);
   return (
     <div className={styles["reporter-nature"]}>
-      {DAILY_NATURE.map(({ author, description, url }) => (
+      {NATURE_REPORTERS.map(({ author, description, url }) => (
         <div className={styles["reporter-nature__yt-container"]} key={url}>
           <div className={styles["reporter-nature__yt-container--youtube"]}>
-            <ReactPlayer
-              controls
-              url="https://www.youtube.com/watch?v=pM4xZgRqy1Q"
-              width="100%"
-              height="100%"
-            />
+            <ReactPlayer controls url={url} width="100%" height="100%" />
           </div>
           <p className={styles["reporter-nature__yt-container--author"]}>
             {author}
