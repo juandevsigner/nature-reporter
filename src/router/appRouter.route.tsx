@@ -7,6 +7,7 @@ const AppRouter = () => {
     <BrowserRouter>
       <NavBar />
       <Routes>
+        <Route path="/diarios-de-la-naturaleza" element={<Navigate to="/" />} />
         {ROUTER_SCHEMA.map(({ component: Component, path }) => (
           <Route key={path} path={path} element={<Component />} />
         ))}

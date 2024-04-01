@@ -21,15 +21,19 @@ export const DrawerMenu = () => {
         <CloseCircle color="white" />
       </button>
       <div className={styles["drawer-menu__links"]}>
-        {ROUTER_SCHEMA.map(({ path, title, subMenu }) => (
-          <Link
-            className={subMenu ? styles["sub-menu"] : ""}
-            key={path}
-            to={path}
-          >
-            {subMenu && <ArrowRight2 size="17" color="#37d67a" />} {title}
-          </Link>
-        ))}
+        {ROUTER_SCHEMA.map(({ path, title, subMenu, dropDown }) =>
+          dropDown ? (
+            <p key={path}>{title}</p>
+          ) : (
+            <Link
+              className={subMenu ? styles["sub-menu"] : ""}
+              key={path}
+              to={path}
+            >
+              {subMenu && <ArrowRight2 size="17" color="#37d67a" />} {title}
+            </Link>
+          )
+        )}
       </div>
     </div>
   );

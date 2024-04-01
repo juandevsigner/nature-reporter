@@ -11,6 +11,7 @@ interface IRouter {
   component: React.FC;
   title: string;
   subMenu?: boolean;
+  dropDown?: boolean;
 }
 
 export const ROUTER_SCHEMA: IRouter[] = [
@@ -28,6 +29,7 @@ export const ROUTER_SCHEMA: IRouter[] = [
     path: "/diarios-de-la-naturaleza",
     component: DailyNaturePage,
     title: "Diarios",
+    dropDown: true,
   },
   {
     path: "/diarios-de-la-naturaleza/granjas",
