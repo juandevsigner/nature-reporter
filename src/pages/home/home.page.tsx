@@ -1,8 +1,8 @@
 import { useContext, useEffect } from "react";
 import { AppContext } from "src/context/app.context";
 import bgImage from "../../assets/reporteros.webp";
-import burri from "../../assets/burri.jpg";
 import styles from "./home.module.scss";
+import { ANIMAL_WEEK, OF_THE_WEEK } from "src/schemas/home.schema";
 
 const HomePage = () => {
   const { setOpenMenu } = useContext(AppContext);
@@ -20,14 +20,9 @@ const HomePage = () => {
       <div>
         <aside>
           <h3>Ilustraciones de la semana</h3>
-          <img
-            src="https://res.cloudinary.com/dbgww54tl/image/upload/v1711845402/photo1711844977_ft43kd.jpg"
-            alt="daily-img"
-          />
-          <img
-            src="https://res.cloudinary.com/dbgww54tl/image/upload/v1711843450/photo1708707437_opzgr1.jpg"
-            alt="daily-img"
-          />
+          {OF_THE_WEEK.map(({ img }) => (
+            <img src={img} alt="img-week" />
+          ))}
         </aside>
         <div className={styles.divider} />
         <main>
@@ -96,9 +91,13 @@ const HomePage = () => {
         </main>
         <div className={styles.divider} />
         <aside>
-          <img src={burri} alt="daily-img" />
-          <p>"En todas las cosas de la naturaleza hay algo maravilloso"</p>
-          <span>-Aristóteles</span>
+          {ANIMAL_WEEK.map(({ author, description, img }) => (
+            <>
+              <img src={img} alt="daily-img" />
+              <p>{description}</p>
+              <span>{author}</span>
+            </>
+          ))}
         </aside>
       </div>
     </div>

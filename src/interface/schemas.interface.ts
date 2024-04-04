@@ -4,4 +4,7 @@ export interface INatureReporters {
   description: string;
 }
 
-export interface ITerm extends Pick<INatureReporters, "description" | "url"> {}
+export interface ITerm {
+  phrase: string;
+  list: Pick<INatureReporters, "url" | "description">[];
+}

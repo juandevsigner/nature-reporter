@@ -41,4 +41,9 @@ export const NATURE_REPORTERS: INatureReporters[] = [
     author: "Salomon y Avril ",
     description: "los cerdos son animales curiosos e intuitivos. ",
   },
+  {
+    url: "https://www.youtube.com/watch?v=BU3TwpZN_dQ&ab_channel=DiariosdelaNaturaleza",
+    author: "Mariangel Monsalve ",
+    description: "Las cabras son animales inteligentes y adaptables. ",
+  },
 ];
