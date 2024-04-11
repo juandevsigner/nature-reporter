@@ -74,6 +74,22 @@ export const ANIMAL_FARM: ITerm = {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1712087209/photo1712027718_2_axrum1.jpg",
       description: "",
     },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1712801319/photo1712329722_qglv2n.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1712801319/photo1712354825_mfrqva.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1712801939/photo1712354728_hmqhiq_gallo_o087da.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1712801319/photo1712354785_mhuf83.jpg",
+      description: "",
+    },
   ],
 };
 
