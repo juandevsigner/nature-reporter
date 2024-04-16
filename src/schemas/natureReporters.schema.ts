@@ -46,4 +46,9 @@ export const NATURE_REPORTERS: INatureReporters[] = [
     author: "Mariangel Monsalve ",
     description: "Las cabras son animales inteligentes y adaptables. ",
   },
+  {
+    url: "https://www.youtube.com/watch?v=0GsIIMsaQg8&ab_channel=DiariosdelaNaturaleza",
+    author: "Nicolas Gonzales Pedraza ",
+    description: "“La naturaleza no es un lugar para visitar. Es el hogar” ",
+  },
 ];
