@@ -51,4 +51,10 @@ export const NATURE_REPORTERS: INatureReporters[] = [
     author: "Nicolas Gonzales Pedraza ",
     description: "“La naturaleza no es un lugar para visitar. Es el hogar” ",
   },
+  {
+    url: "https://www.youtube.com/watch?v=jcxieXy2b98&ab_channel=DiariosdelaNaturaleza",
+    author: "Elias y Abbi ",
+    description:
+      "¡la naturaleza es una de las partes más increíbles de la vida! ",
+  },
 ];
