@@ -6,10 +6,10 @@ interface IHomeSchemas {
 
 export const OF_THE_WEEK: Pick<IHomeSchemas, "img">[] = [
   {
-    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714573514/photo1714147772_y0bxwu.jpg",
+    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839211/photo1714773032_3_wihbqm.jpg",
   },
   {
-    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714573551/photo1714573478_wxajw8.jpg",
+    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839471/WhatsApp_Image_2024-05-02_at_21.32.58_743c024a_mp8mnc.jpg",
   },
 ];
 
@@ -20,7 +20,7 @@ export const ANIMAL_WEEK: IHomeSchemas[] = [
     author: "",
   },
   {
-    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714573515/photo1714145379_tqcilq.jpg",
+    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839262/photo1714699870_1_i5yobq.jpg",
     description:
       '""El sentido de la belleza proviene del contacto temprano con la naturaleza".',
     author: "Charlotte Mason, Vol 1 ",

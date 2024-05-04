@@ -57,4 +57,15 @@ export const NATURE_REPORTERS: INatureReporters[] = [
     description:
       "¡la naturaleza es una de las partes más increíbles de la vida! ",
   },
+  {
+    url: "https://www.youtube.com/watch?v=a4FKJSdCOIw",
+    author: "Yesica Morales ",
+    description:
+      "¡Dios se preocupa de los animales, nosotros también debemos hacerlo! ",
+  },
+  {
+    url: "https://www.youtube.com/watch?v=3VNjWzSR6ig&t=16s",
+    author: "Neythan ",
+    description: "¡Visitando lugares increíbles! ",
+  },
 ];

@@ -250,6 +250,42 @@ export const ANIMAL_FARM: ITerm = {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714575052/photo1714141756_2_o3ijft.jpg",
       description: "",
     },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839210/photo1714773032_2_ihv4on.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839260/photo1714699895_1_doh5nv.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839289/photo1714753090_2_gc2ckt.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839291/photo1714753114_1_or9x2i.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839464/WhatsApp_Image_2024-05-02_at_21.35.03_cf848054_ifcywf.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839466/WhatsApp_Image_2024-05-02_at_22.04.08_e1b89eec_r4qosf.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839467/WhatsApp_Image_2024-05-02_at_21.32.19_b892a515_ssltc5.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839469/WhatsApp_Image_2024-05-02_at_21.32.43_bca1649d_ujpnsm.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839472/WhatsApp_Image_2024-05-02_at_21.31.46_3c700b48_ax8nvy.jpg",
+      description: "",
+    },
   ],
 };
 
@@ -316,6 +352,46 @@ export const EXPLORER: ITerm = {
     },
     {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714573551/photo1714573478_wxajw8.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839471/WhatsApp_Image_2024-05-02_at_21.32.58_743c024a_mp8mnc.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839462/WhatsApp_Image_2024-05-02_at_21.34.07_8cf40c3b_wo7zk0.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839298/photo1714750855_kd3bg8.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839295/photo1714750855_2_vql1qr.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839293/photo1714750855_3_tyqgyr.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839262/photo1714699870_1_i5yobq.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839288/photo1714695972_qa0wir.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839240/photo1714579636_h0bvph.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839253/photo1714682093_koryd9.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839254/photo1714701748_bdmetv.jpg",
       description: "",
     },
   ],
@@ -391,6 +467,18 @@ export const MOM_DRAW: ITerm = {
     },
     {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714575049/photo1714141807_2_fieemw.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839441/WhatsApp_Image_2024-05-03_at_13.07.24_e99a5bef_fvl5tk.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839292/photo1714753089_1_juquya.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839211/photo1714773032_3_wihbqm.jpg",
       description: "",
     },
   ],
