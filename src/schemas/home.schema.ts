@@ -6,21 +6,21 @@ interface IHomeSchemas {
 
 export const OF_THE_WEEK: Pick<IHomeSchemas, "img">[] = [
   {
-    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839211/photo1714773032_3_wihbqm.jpg",
+    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1717032081/WhatsApp_Image_2024-05-29_at_20.15.12_8bcb5c35_nlpkjg.jpg",
   },
   {
-    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839471/WhatsApp_Image_2024-05-02_at_21.32.58_743c024a_mp8mnc.jpg",
+    img: "https://res.cloudinary.com/dbgww54tl/image/upload/a_-90/v1717032081/WhatsApp_Image_2024-05-29_at_20.15.03_4957266f_ajdvtp.jpg",
   },
 ];
 
 export const ANIMAL_WEEK: IHomeSchemas[] = [
   {
-    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714573789/los-10-sonidos-principales-del-perro_abu980.jpg",
-    description: "Todo lo que un perro tenga te lo dará con creces.",
+    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1717032082/WhatsApp_Image_2024-05-29_at_20.15.01_5cf9b18b_wbclak.jpg",
+    description: "",
     author: "",
   },
   {
-    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839262/photo1714699870_1_i5yobq.jpg",
+    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1717032132/WhatsApp_Image_2024-05-29_at_20.21.36_2285c12f_ubhz1h.jpg",
     description:
       '""El sentido de la belleza proviene del contacto temprano con la naturaleza".',
     author: "Charlotte Mason, Vol 1 ",

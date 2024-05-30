@@ -481,5 +481,9 @@ export const MOM_DRAW: ITerm = {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1714839211/photo1714773032_3_wihbqm.jpg",
       description: "",
     },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/a_-90/v1717032081/WhatsApp_Image_2024-05-29_at_20.15.03_4957266f_ajdvtp.jpg",
+      description: "",
+    },
   ],
 };
