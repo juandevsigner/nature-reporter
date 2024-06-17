@@ -1,8 +1,12 @@
 import { useContext, useEffect, useMemo } from "react";
 import { AppContext } from "src/context/app.context";
-import { ANIMAL_FARM, EXPLORER, MOM_DRAW } from "src/schemas/termNature.schema";
+
 import styles from "./termNature.module.scss";
 import { useLocation } from "react-router-dom";
+import { EXPLORER } from "src/schemas/termNature/explorer.schema";
+import { MOM_DRAW } from "src/schemas/termNature/momDraws.schema";
+import { FLOWERS } from "src/schemas/termNature/flowers.schema";
+import { ANIMAL_FARM } from "src/schemas/termNature/animalFarm.schema";
 
 const TermNaturePage = () => {
   const { setOpenMenu } = useContext(AppContext);
@@ -10,16 +14,22 @@ const TermNaturePage = () => {
   const location = useLocation();
 
   const listType = useMemo(() => {
-    if (location.pathname === "/exploraciones") {
+    if (location.pathname.includes("exploraciones")) {
       return {
         phrase: EXPLORER.phrase,
         list: EXPLORER.list,
       };
     }
-    if (location.pathname === "/mama-ilustra") {
+    if (location.pathname.includes("mama-ilustra")) {
       return {
         phrase: MOM_DRAW.phrase,
         list: MOM_DRAW.list,
+      };
+    }
+    if (location.pathname.includes("flores")) {
+      return {
+        phrase: FLOWERS.phrase,
+        list: FLOWERS.list,
       };
     }
     return {
