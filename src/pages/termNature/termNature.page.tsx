@@ -1,12 +1,13 @@
 import { useContext, useEffect, useMemo } from "react";
+import { PhotoProvider, PhotoView } from "react-photo-view";
 import { AppContext } from "src/context/app.context";
-
-import styles from "./termNature.module.scss";
 import { useLocation } from "react-router-dom";
 import { EXPLORER } from "src/schemas/termNature/explorer.schema";
 import { MOM_DRAW } from "src/schemas/termNature/momDraws.schema";
 import { FLOWERS } from "src/schemas/termNature/flowers.schema";
 import { ANIMAL_FARM } from "src/schemas/termNature/animalFarm.schema";
+import "react-photo-view/dist/react-photo-view.css";
+import styles from "./termNature.module.scss";
 
 const TermNaturePage = () => {
   const { setOpenMenu } = useContext(AppContext);
@@ -44,19 +45,23 @@ const TermNaturePage = () => {
   }, [location.pathname]);
 
   return (
-    <div className={styles["term-nature"]}>
-      <header>
-        <h1>{listType.phrase}</h1>
-      </header>
-      <main>
-        {listType.list.map(({ description, url }) => (
-          <div key={url}>
-            <img src={url} alt="animal-img" />
-            <p>{description}</p>
-          </div>
-        ))}
-      </main>
-    </div>
+    <PhotoProvider>
+      <div className={styles["term-nature"]}>
+        <header>
+          <h1>{listType.phrase}</h1>
+        </header>
+        <main>
+          {listType.list.map(({ description, url }, i) => (
+            <PhotoView key={i} src={url}>
+              <div key={url}>
+                <img src={url} alt="animal-img" />
+                <p>{description}</p>
+              </div>
+            </PhotoView>
+          ))}
+        </main>
+      </div>
+    </PhotoProvider>
   );
 };
 

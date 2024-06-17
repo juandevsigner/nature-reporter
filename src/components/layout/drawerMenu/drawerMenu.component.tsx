@@ -3,7 +3,6 @@ import { ROUTER_SCHEMA } from "../../../router/router.schema";
 import { AppContext } from "src/context/app.context";
 import { ArrowRight2, CloseCircle } from "iconsax-react";
 import styles from "./drawerMenu.module.scss";
-import { Link } from "react-router-dom";
 
 export const DrawerMenu = () => {
   const { openMenu, setOpenMenu } = useContext(AppContext);
@@ -25,13 +24,13 @@ export const DrawerMenu = () => {
           dropDown ? (
             <p key={path}>{title}</p>
           ) : (
-            <Link
+            <a
               className={subMenu ? styles["sub-menu"] : ""}
               key={path}
-              to={path}
+              href={path}
             >
               {subMenu && <ArrowRight2 size="17" color="#37d67a" />} {title}
-            </Link>
+            </a>
           )
         )}
       </div>
