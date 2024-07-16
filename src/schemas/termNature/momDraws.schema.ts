@@ -104,5 +104,29 @@ export const MOM_DRAW: ITerm = {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1718653551/WhatsApp_Image_2024-06-17_at_14.36.34_9e5c7876_vpsgfz.jpg",
       description: "",
     },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1721169293/WhatsApp_Image_2024-07-16_at_17.20.07_7c49f70e_zrlbsd.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1721169276/WhatsApp_Image_2024-07-16_at_17.27.33_68c26808_ncbhxi.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1721169275/WhatsApp_Image_2024-07-16_at_17.27.33_173ee7bf_yj9dfk.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1721169275/WhatsApp_Image_2024-07-16_at_17.27.33_a1b35206_peiiya.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1721169275/WhatsApp_Image_2024-07-16_at_17.27.33_2390c893_kfz1f1.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1721169275/WhatsApp_Image_2024-07-16_at_17.27.33_8767452f_drxnio.jpg",
+      description: "",
+    },
   ],
 };
