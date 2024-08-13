@@ -68,4 +68,24 @@ export const NATURE_REPORTERS: INatureReporters[] = [
     author: "Neythan ",
     description: "¡Visitando lugares increíbles! ",
   },
+  {
+    url: "https://www.youtube.com/watch?v=oIQP1rKj_5I",
+    author: "Mariangel",
+    description: "FLORES, Cucurbita Ficifolia ( La Victoria) ",
+  },
+  {
+    url: "https://www.youtube.com/watch?v=l1lAw5co_tQ",
+    author: "Abbi y Elias",
+    description: "Las flores de mi vecindario",
+  },
+  {
+    url: "https://www.youtube.com/watch?v=f8Jtyx-FTa8",
+    author: "Daniel, Isabela, Emiliano y Alana",
+    description: "Mis Aprendizajes en casa ",
+  },
+  {
+    url: "https://www.youtube.com/watch?v=KrHr4FYmj2Q",
+    author: "Mariana",
+    description: "Un día como botánica",
+  },
 ];

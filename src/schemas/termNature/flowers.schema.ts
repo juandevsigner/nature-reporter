@@ -123,5 +123,54 @@ export const FLOWERS: ITerm = {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1721169293/WhatsApp_Image_2024-07-16_at_17.20.06_5db01a6d_i9bj4q.jpg",
       description: "",
     },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1723503274/WhatsApp_Image_2024-08-02_at_10.39.27_AM_k7ll38.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1723503273/WhatsApp_Image_2024-08-09_at_10.25.38_AM_wfnuif.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1723503273/WhatsApp_Image_2024-08-01_at_4.25.36_PM_iczkp4.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1723503273/WhatsApp_Image_2024-08-09_at_10.25.31_AM_cnqdem.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1723503273/WhatsApp_Image_2024-08-09_at_10.25.10_AM_gvwh2y.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1723503273/WhatsApp_Image_2024-08-09_at_10.25.10_AM_gvwh2y.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1723503273/WhatsApp_Image_2024-08-09_at_10.25.18_AM_tx1eg0.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1723503272/WhatsApp_Image_2024-07-26_at_10.09.39_AM_jpkdk5.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1723503272/WhatsApp_Image_2024-07-26_at_10.08.27_AM_nxqfvu.jpg",
+      description: "",
+    },
+
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1723503272/WhatsApp_Image_2024-07-19_at_8.46.11_AM_j93p4m.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1723503272/WhatsApp_Image_2024-07-19_at_10.23.59_AM_l3islc.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1723503272/WhatsApp_Image_2024-07-19_at_8.45.53_AM_mkvwmf.jpg",
+      description: "",
+    },
   ],
 };
