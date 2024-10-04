@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 import { EXPLORER } from "src/schemas/termNature/explorer.schema";
 import { MOM_DRAW } from "src/schemas/termNature/momDraws.schema";
 import { FLOWERS } from "src/schemas/termNature/flowers.schema";
+import { BUTTERFLIES } from "src/schemas/termNature/butterflies.schema";
 import { ANIMAL_FARM } from "src/schemas/termNature/animalFarm.schema";
 import "react-photo-view/dist/react-photo-view.css";
 import styles from "./termNature.module.scss";
@@ -31,6 +32,12 @@ const TermNaturePage = () => {
       return {
         phrase: FLOWERS.phrase,
         list: FLOWERS.list,
+      };
+    }
+    if (location.pathname.includes("butterflies")) {
+      return {
+        phrase: BUTTERFLIES.phrase,
+        list: BUTTERFLIES.list,
       };
     }
     return {
