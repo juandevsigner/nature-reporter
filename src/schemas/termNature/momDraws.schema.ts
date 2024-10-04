@@ -132,5 +132,21 @@ export const MOM_DRAW: ITerm = {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1723503273/WhatsApp_Image_2024-08-02_at_10.37.36_AM_pj4k1p.jpg",
       description: "",
     },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728009586/Imagen_de_WhatsApp_2024-10-02_a_las_21.55.01_434f9c94_hajz6g.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728009571/Imagen_de_WhatsApp_2024-09-26_a_las_11.53.12_a9bf0610_insqwb.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728010744/Imagen_de_WhatsApp_2024-10-03_a_las_21.58.26_f0a67ae6_tamnwp.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728010744/Imagen_de_WhatsApp_2024-10-03_a_las_21.57.37_e37b6ba1_qcfzt1.jpg",
+      description: "",
+    },
   ],
 };
