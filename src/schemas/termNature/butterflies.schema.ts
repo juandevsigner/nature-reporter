@@ -1,7 +1,7 @@
 import { ITerm } from "src/interface/schemas.interface";
 
 export const BUTTERFLIES: ITerm = {
-  phrase: "Mariposas",
+  phrase: "Sin PROCESO no hay TRANSFORMACIÓN",
   list: [
     {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728009533/Imagen_de_WhatsApp_2024-09-13_a_las_11.16.00_2a62eb41_aw6tlz.jpg",
@@ -49,6 +49,18 @@ export const BUTTERFLIES: ITerm = {
     },
     {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728010744/Imagen_de_WhatsApp_2024-10-03_a_las_21.58.02_8e8bc710_dosl9c.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728388511/Imagen_de_WhatsApp_2024-10-04_a_las_13.45.21_5a361f5a_fq5yyk.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728388542/photo_4904749014927387960_y_vpihox.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728388542/photo_4904749014927387963_y_bbwlg2.jpg",
       description: "",
     },
   ],

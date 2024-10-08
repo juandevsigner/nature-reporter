@@ -189,5 +189,25 @@ export const EXPLORER: ITerm = {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728009577/Imagen_de_WhatsApp_2024-09-27_a_las_11.05.46_71ad9573_zowivn.jpg",
       description: "",
     },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728388511/Imagen_de_WhatsApp_2024-10-04_a_las_09.49.44_e10b5872_nxuwcz.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728388512/Imagen_de_WhatsApp_2024-10-04_a_las_09.50.11_818f82be_mqzzxw.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728388542/photo_5123050077890391571_y_fuge9l.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728388542/photo_5166023987350842852_y_s0zgs0.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728388543/photo_5186404629372579285_y_m5oykh.jpg",
+      description: "",
+    },
   ],
 };
