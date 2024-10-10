@@ -43,7 +43,7 @@ export const ROUTER_SCHEMA: IRouter[] = [
     subMenu: true,
   },
   {
-    path: "/butterflies",
+    path: "/diarios-de-la-naturaleza/mariposas",
     component: TermNaturePage,
     title: "Mariposas",
     subMenu: true,

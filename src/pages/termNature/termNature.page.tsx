@@ -34,7 +34,7 @@ const TermNaturePage = () => {
         list: FLOWERS.list,
       };
     }
-    if (location.pathname.includes("butterflies")) {
+    if (location.pathname.includes("mariposas")) {
       return {
         phrase: BUTTERFLIES.phrase,
         list: BUTTERFLIES.list,
