@@ -152,5 +152,17 @@ export const MOM_DRAW: ITerm = {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728388512/Imagen_de_WhatsApp_2024-10-07_a_las_10.22.20_b081e4fe_o6gcmc.jpg",
       description: "",
     },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255062/Imagen_de_WhatsApp_2024-10-15_a_las_11.00.05_b743d2fe_jszzgs.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255051/Imagen_de_WhatsApp_2024-10-16_a_las_13.27.20_59552cf1_vgzorx.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255053/Imagen_de_WhatsApp_2024-10-15_a_las_10.58.20_d38c1f7c_vmp7za.jpg",
+      description: "",
+    },
   ],
 };

@@ -63,5 +63,45 @@ export const BUTTERFLIES: ITerm = {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1728388542/photo_4904749014927387963_y_bbwlg2.jpg",
       description: "",
     },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255051/Imagen_de_WhatsApp_2024-10-16_a_las_13.26.05_8ca350c5_zuoc6z.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255051/Imagen_de_WhatsApp_2024-10-16_a_las_13.26.47_820cf826_yd5kgt.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255051/photo_4920340811363757211_y_fppqnv.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255052/Imagen_de_WhatsApp_2024-10-11_a_las_10.19.13_1f3dc500_lkgsre.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255053/Imagen_de_WhatsApp_2024-10-15_a_las_10.58.20_0b437000_gcc1de.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255053/Imagen_de_WhatsApp_2024-10-15_a_las_10.58.20_1c28c756_dd5bc7.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255055/Imagen_de_WhatsApp_2024-10-15_a_las_11.00.04_2e3011fb_jyhph4.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255062/Imagen_de_WhatsApp_2024-10-15_a_las_11.00.05_c2670f21_igxc5c.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255062/Imagen_de_WhatsApp_2024-10-15_a_las_11.01.18_447d4bff_mng6qd.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255062/Imagen_de_WhatsApp_2024-10-15_a_las_11.01.18_1252e0e8_rsgx8c.jpg",
+      description: "",
+    },
   ],
 };
