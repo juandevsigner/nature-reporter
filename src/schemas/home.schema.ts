@@ -6,22 +6,21 @@ interface IHomeSchemas {
 
 export const OF_THE_WEEK: Pick<IHomeSchemas, "img">[] = [
   {
-    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255051/Imagen_de_WhatsApp_2024-10-16_a_las_13.26.05_8ca350c5_zuoc6z.jpg",
+    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1731670514/Imagen_de_WhatsApp_2024-10-24_a_las_13.17.26_0d382fba_zjuujv.jpg",
   },
   {
-    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255051/Imagen_de_WhatsApp_2024-10-16_a_las_13.27.20_59552cf1_vgzorx.jpg",
+    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1731670512/Imagen_de_WhatsApp_2024-10-25_a_las_12.47.11_d6fdea7b_cio6op.jpg",
   },
 ];
 
 export const ANIMAL_WEEK: IHomeSchemas[] = [
   {
-    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255052/Imagen_de_WhatsApp_2024-10-08_a_las_07.14.14_5c5b0ac4_ol9wfc.jpg",
-    description:
-      "«El secreto no es correr detrás de las mariposas…es cuidar el jardín para que ellas vengan hacia tí»",
-    author: "Mário de Miranda Quintana",
+    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1731671406/Historia_de_frases_n6bbxb.png",
+    description: "«Disfruta del proceso»",
+    author: "",
   },
   {
-    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255052/photo_4934162784921431226_y_ii3noz.jpg",
+    img: "https://res.cloudinary.com/dbgww54tl/image/upload/v1731670528/Imagen_de_WhatsApp_2024-10-28_a_las_12.29.40_f903a845_oeayhe.jpg",
     description:
       '""El sentido de la belleza proviene del contacto temprano con la naturaleza".',
     author: "Charlotte Mason, Vol 1 ",

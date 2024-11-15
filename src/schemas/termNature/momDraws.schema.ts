@@ -164,5 +164,9 @@ export const MOM_DRAW: ITerm = {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1729255053/Imagen_de_WhatsApp_2024-10-15_a_las_10.58.20_d38c1f7c_vmp7za.jpg",
       description: "",
     },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1731670513/Imagen_de_WhatsApp_2024-10-23_a_las_15.11.33_f888cc98_yo9rsv.jpg",
+      description: "",
+    },
   ],
 };
