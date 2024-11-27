@@ -309,5 +309,26 @@ export const EXPLORER: ITerm = {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1731670514/Imagen_de_WhatsApp_2024-10-24_a_las_13.17.26_0d382fba_zjuujv.jpg",
       description: "",
     },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713220/Imagen_de_WhatsApp_2024-11-18_a_las_12.27.12_18c291b9_vippbb.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713220/Imagen_de_WhatsApp_2024-11-18_a_las_12.27.12_47e58b05_knhnq1.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713212/Imagen_de_WhatsApp_2024-11-26_a_las_09.39.58_f74b2eaa_g8oacw.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713211/Imagen_de_WhatsApp_2024-11-22_a_las_12.18.25_d3081625_q10tio.jpg",
+      description: "",
+    },
+
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713212/Imagen_de_WhatsApp_2024-11-22_a_las_12.18.36_5b4ff9b8_qs0snw.jpg",
+      description: "",
+    },
   ],
 };

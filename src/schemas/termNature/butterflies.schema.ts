@@ -159,5 +159,105 @@ export const BUTTERFLIES: ITerm = {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1731671023/photo_4981078769984974102_y_ovcayk.jpg",
       description: "",
     },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713213/Imagen_de_WhatsApp_2024-11-18_a_las_12.27.09_d89bb488_nqgnxl.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713213/Imagen_de_WhatsApp_2024-11-18_a_las_12.27.10_f89d7bce_zhqeqk.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713213/Imagen_de_WhatsApp_2024-11-18_a_las_12.27.11_72f5658f_eozvv2.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713220/Imagen_de_WhatsApp_2024-11-18_a_las_12.27.13_104b67b3_jrevaz.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713220/Imagen_de_WhatsApp_2024-11-18_a_las_12.27.13_fe97c24f_ieedfs.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713221/Imagen_de_WhatsApp_2024-11-19_a_las_11.17.46_cea3f4ab_xrf7vi.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713221/Imagen_de_WhatsApp_2024-11-19_a_las_11.17.45_0c615839_chutet.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713221/Imagen_de_WhatsApp_2024-11-19_a_las_11.17.46_37c60c4e_vypwwu.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713221/Imagen_de_WhatsApp_2024-11-19_a_las_11.18.53_36ee64ab_iraejw.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713221/Imagen_de_WhatsApp_2024-11-19_a_las_11.17.45_ddbba542_c4nynp.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713225/Imagen_de_WhatsApp_2024-11-19_a_las_11.17.44_ff5026cf_j4bwn3.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713240/Imagen_de_WhatsApp_2024-11-19_a_las_11.17.44_43ebd9a2_abi9vt.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713211/Imagen_de_WhatsApp_2024-11-15_a_las_14.28.41_20f6e1a5_ienyzk.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713211/Imagen_de_WhatsApp_2024-11-15_a_las_14.28.40_93396aa4_eisnar.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713211/Imagen_de_WhatsApp_2024-11-15_a_las_14.28.41_358dc3ce_zuwzmv.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713212/Imagen_de_WhatsApp_2024-11-20_a_las_15.58.43_133e4ee6_ppih37.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713212/Imagen_de_WhatsApp_2024-11-15_a_las_14.28.40_38527469_n5nukt.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713212/Imagen_de_WhatsApp_2024-11-20_a_las_15.54.35_eb8d46d5_fzag3c.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713212/Imagen_de_WhatsApp_2024-11-20_a_las_15.54.36_ed68ab82_mojo9y.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713212/Imagen_de_WhatsApp_2024-11-20_a_las_15.54.37_7add7de2_q1acdq.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713213/Imagen_de_WhatsApp_2024-11-20_a_las_15.54.35_b70be20f_xzebky.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713213/Imagen_de_WhatsApp_2024-11-18_a_las_12.27.09_71ccfd62_g8co7r.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713213/Imagen_de_WhatsApp_2024-11-18_a_las_12.27.09_e38cfb30_bjrnms.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713212/Imagen_de_WhatsApp_2024-11-15_a_las_14.28.41_7418e85f_qfqpsd.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1732713213/Imagen_de_WhatsApp_2024-10-11_a_las_13.23.42_f234f891_momdt0.jpg",
+      description: "",
+    },
   ],
 };
