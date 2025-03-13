@@ -49,6 +49,12 @@ export const ROUTER_SCHEMA: IRouter[] = [
     subMenu: true,
   },
   {
+    path: "/diarios-de-la-naturaleza/nidos",
+    component: TermNaturePage,
+    title: "Nidos",
+    subMenu: true,
+  },
+  {
     path: "/mama-ilustra",
     component: TermNaturePage,
     title: "Mamá Ilustra",
