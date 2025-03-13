@@ -9,6 +9,7 @@ import { BUTTERFLIES } from "src/schemas/termNature/butterflies.schema";
 import { ANIMAL_FARM } from "src/schemas/termNature/animalFarm.schema";
 import "react-photo-view/dist/react-photo-view.css";
 import styles from "./termNature.module.scss";
+import { NEST } from "src/schemas/termNature/nidos.schema";
 
 const TermNaturePage = () => {
   const { setOpenMenu } = useContext(AppContext);
@@ -38,6 +39,12 @@ const TermNaturePage = () => {
       return {
         phrase: BUTTERFLIES.phrase,
         list: BUTTERFLIES.list,
+      };
+    }
+    if (location.pathname.includes("nidos")) {
+      return {
+        phrase: NEST.phrase,
+        list: NEST.list,
       };
     }
     return {
