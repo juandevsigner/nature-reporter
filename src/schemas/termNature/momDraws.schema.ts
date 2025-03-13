@@ -168,5 +168,13 @@ export const MOM_DRAW: ITerm = {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1731670513/Imagen_de_WhatsApp_2024-10-23_a_las_15.11.33_f888cc98_yo9rsv.jpg",
       description: "",
     },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1741899753/Imagen_de_WhatsApp_2025-02-20_a_las_14.40.40_fe23b884_ilwurw.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1741899743/Imagen_de_WhatsApp_2025-03-10_a_las_18.47.12_8dd29bad_b2bfym.jpg",
+      description: "",
+    },
   ],
 };
