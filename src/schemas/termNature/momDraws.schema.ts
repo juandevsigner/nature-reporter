@@ -176,5 +176,17 @@ export const MOM_DRAW: ITerm = {
       url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1741899743/Imagen_de_WhatsApp_2025-03-10_a_las_18.47.12_8dd29bad_b2bfym.jpg",
       description: "",
     },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1743337554/Imagen_de_WhatsApp_2025-03-14_a_las_17.12.27_5fbbeb30_olaqg3.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1743337555/Imagen_de_WhatsApp_2025-03-14_a_las_17.12.51_a5171b53_pronoe.jpg",
+      description: "",
+    },
+    {
+      url: "https://res.cloudinary.com/dbgww54tl/image/upload/v1743337554/Imagen_de_WhatsApp_2025-03-14_a_las_17.15.12_c0b840a3_xevebj.jpg",
+      description: "",
+    },
   ],
 };
