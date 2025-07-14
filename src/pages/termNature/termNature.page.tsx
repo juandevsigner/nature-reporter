@@ -10,6 +10,7 @@ import { ANIMAL_FARM } from "src/schemas/termNature/animalFarm.schema";
 import "react-photo-view/dist/react-photo-view.css";
 import styles from "./termNature.module.scss";
 import { NEST } from "src/schemas/termNature/nidos.schema";
+import { WEATHER } from "src/schemas/termNature/weather.schema";
 
 const TermNaturePage = () => {
   const { setOpenMenu } = useContext(AppContext);
@@ -45,6 +46,12 @@ const TermNaturePage = () => {
       return {
         phrase: NEST.phrase,
         list: NEST.list,
+      };
+    }
+    if (location.pathname.includes("tiempo-atmosferico")) {
+      return {
+        phrase: WEATHER.phrase,
+        list: WEATHER.list,
       };
     }
     return {

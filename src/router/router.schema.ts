@@ -55,6 +55,12 @@ export const ROUTER_SCHEMA: IRouter[] = [
     subMenu: true,
   },
   {
+    path: "/diarios-de-la-naturaleza/tiempo-atmosferico",
+    component: TermNaturePage,
+    title: "Tiempo Atmosférico",
+    subMenu: true,
+  },
+  {
     path: "/mama-ilustra",
     component: TermNaturePage,
     title: "Mamá Ilustra",
